@@ -1,12 +1,15 @@
-import { myAddress as myAddress1, MyAwesomeAlerty } from "./App13";
-function MyAwesomeAlerty(){
-
-}
-
-function App14() {
+export default function App14() {
     return (
-        <App14></App14>
-        MyAwesomeAlerty
+        <div>
+            <h1>여기는 App14 컴포넌트</h1>
+        </div>
     );
 }
-export default createRoot();
+
+function MyAwesomeAlert() {
+    return <div>이것은 멋진 alert!!</div>;
+}
+
+export { MyAwesomeAlert };
+
+// export default App14;
